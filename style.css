@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 50px;
+}
+
+li {
+    font-size: 20px;
+}
+
+.delete {
+    cursor: pointer;
+    color: red;
+}
+
+#modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+}
+
+#modal.active {
+    display: flex;
+}
+
+h1 {
+    padding: 20px;
+    border: 1px solid white;
+}
